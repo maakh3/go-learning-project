@@ -3,7 +3,8 @@ Experimenting with go to learn backend concepts
 
 following https://gobyexample.com/
 
-goal is get the smartshop go api template standard
+goal is get to understand the smartshop go api template standard
+https://github.com/JSainsburyPLC/smartshop-api-go-template
 
 ## hello_world.go
 
@@ -14,11 +15,13 @@ $ go run hello_world.go
 hello world!
 ```
 
-this second way build a binary file 
+and 
 ```
 $ go build hello_world.go
 $ ./hello_world
+hello world!
 ```
+the second way builds a binary file 
 
 
 
