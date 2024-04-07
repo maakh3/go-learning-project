@@ -5,7 +5,7 @@
 $ go run cmd/api/main.go
 ```
 
-## Make Calls
+## Example Call
 
 ```
 $ curl -H "Authorization: 123ABC" localhost:8080/account/coins/?username=alex
