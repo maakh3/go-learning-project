@@ -1,27 +1,12 @@
-# go-learning-project
-Experimenting with go to learn backend concepts
+# GO API Project: Coin Account
 
-following https://gobyexample.com/
-
-goal is get to understand the smartshop go api template standard
-https://github.com/JSainsburyPLC/smartshop-api-go-template
-
-## hello_world.go
-
-two ways of running go code
-
+## Run the server
 ```
-$ go run hello_world.go
-hello world!
+$ go run cmd/api/main.go
 ```
 
-and 
+## Make Calls
+
 ```
-$ go build hello_world.go
-$ ./hello_world
-hello world!
+$ curl -H "Authorization: 123ABC" localhost:8080/account/coins/?username=alex
 ```
-the second way builds a binary file 
-
-
-
