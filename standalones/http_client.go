@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	resp, err := http.Get("https://sainsburys.co.uk")
+	resp, err := http.Get("https://go.dev/doc/code")
 	if err != nil {
 		panic(err)
 	}
