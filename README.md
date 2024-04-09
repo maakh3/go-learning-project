@@ -3,7 +3,7 @@
 ## Healthcheck
 Unauthenticated so no need for secrets
 ```
-$ go run cmd/api/main.go
+$ go run healthcheck/main.go
 ```
 
 
