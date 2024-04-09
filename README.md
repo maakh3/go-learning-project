@@ -1,12 +1,9 @@
-# GO API Project: Coin Account
+# GO VTS Client 
 
-## Run the server
+## Healthcheck
+Unauthenticated so no need for secrets
 ```
 $ go run cmd/api/main.go
 ```
 
-## Example Call
-in another terminal window
-```
-$ curl -H "Authorization: 123ABC" localhost:8080/account/coins/?username=alex
-```
+
